@@ -4,7 +4,10 @@
       <w>camerax</w>
       <w>facedetect</w>
       <w>googlelensclone</w>
+      <w>imagelabel</w>
       <w>mlkit</w>
+      <w>recog</w>
+      <w>textrecog</w>
     </words>
   </dictionary>
 </component>

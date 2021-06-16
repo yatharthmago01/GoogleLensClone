@@ -1,19 +1,21 @@
-package com.example.googlelensclone.facedetect
+package com.example.googlelensclone.textrecog
 
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.camera.core.ImageAnalysis
 import androidx.core.content.ContextCompat
 import com.example.googlelensclone.BaseLensActivity
 
-class FaceDetectActivity : BaseLensActivity() {
+class TextRecogActivity : BaseLensActivity() {
 
-    override val imageAnalyzer = FaceDetectAnalyzer()
+    override val imageAnalyzer = TextRecogAnalyzer()
 
     override fun startScanner() {
-        startFaceDetect()
+        startTextRecog()
     }
 
-    private fun startFaceDetect() {
+    private fun startTextRecog() {
         imageAnalysis.setAnalyzer(ContextCompat.getMainExecutor(this), imageAnalyzer)
     }
+
 }

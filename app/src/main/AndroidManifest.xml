@@ -15,7 +15,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GoogleLensClone">
-        <activity android:name=".facedetect.FaceDetectActivity"></activity>
+        <activity android:name=".textrecog.TextRecogActivity"></activity>
+        <activity android:name=".imagelabel.ImageLabelActivity" />
+        <activity android:name=".facedetect.FaceDetectActivity" />
         <activity android:name=".BaseLensActivity" />
         <activity android:name=".barcode.BarcodeActivity" />
         <activity android:name=".CameraActivity" />
@@ -26,6 +28,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            android:value="ocr" />
     </application>
 
 </manifest>

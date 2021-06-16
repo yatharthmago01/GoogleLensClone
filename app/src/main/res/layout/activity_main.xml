@@ -32,4 +32,22 @@
         android:layout_height="wrap_content"
         android:text="@string/open_barcode_activity"/>
 
+    <Button
+        android:id="@+id/btnFaceDetectActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_face_detect_activity"/>
+
+    <Button
+        android:id="@+id/btnImageLabelActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_image_label_activity"/>
+
+    <Button
+        android:id="@+id/btnTextRecogActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_text_recog_activity"/>
+
 </LinearLayout>
