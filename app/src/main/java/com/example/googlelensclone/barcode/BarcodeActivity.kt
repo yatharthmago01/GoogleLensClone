@@ -5,7 +5,7 @@ import com.example.googlelensclone.BaseLensActivity
 
 class BarcodeActivity : BaseLensActivity() {
 
-    override val imageAnalyzer = BarcodeAnalyzer()
+    override val imageAnalyzer = BarcodeAnalyzer(this)
 
     override fun startScanner() {
         scanBarcode()
