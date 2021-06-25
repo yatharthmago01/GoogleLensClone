@@ -9,4 +9,9 @@
     <string name="open_face_detect_activity">Open Face Detect Activity</string>
     <string name="open_image_label_activity">Open Image Label Activity</string>
     <string name="open_text_recog_activity">Open Text Recog Activity</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="detect_face">Detect Face</string>
+    <string name="label_image">Label Image</string>
+    <string name="recognize_text">Recognize text</string>
 </resources>

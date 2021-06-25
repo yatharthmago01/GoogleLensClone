@@ -8,7 +8,7 @@ import com.example.googlelensclone.BaseLensActivity
 
 class TextRecogActivity : BaseLensActivity() {
 
-    override val imageAnalyzer = TextRecogAnalyzer()
+    override val imageAnalyzer = TextRecogAnalyzer(this)
 
     override fun startScanner() {
         startTextRecog()

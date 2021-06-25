@@ -24,30 +24,30 @@
         android:id="@+id/btnCameraActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/open_camera_activity"/>
+        android:text="@string/open_camera"/>
 
     <Button
         android:id="@+id/btnBarcodeActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/open_barcode_activity"/>
+        android:text="@string/scan_barcode"/>
 
     <Button
         android:id="@+id/btnFaceDetectActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/open_face_detect_activity"/>
+        android:text="@string/detect_face"/>
 
     <Button
         android:id="@+id/btnImageLabelActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/open_image_label_activity"/>
+        android:text="@string/label_image"/>
 
     <Button
         android:id="@+id/btnTextRecogActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/open_text_recog_activity"/>
+        android:text="@string/recognize_text"/>
 
 </LinearLayout>
